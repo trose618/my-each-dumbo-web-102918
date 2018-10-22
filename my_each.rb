@@ -6,4 +6,5 @@ def my_each(array)
     yield array[indx]
     indx+=1
   end
+  array
 end
