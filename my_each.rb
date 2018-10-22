@@ -5,5 +5,5 @@ def my_each(array) # put argument(s) here
   while counter < array.length
     yield array[i]
     counter++
-  
+  end
 end
